@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="VereinOnline.org">
+		<message>Kalendar der Vereinsseite einblenden</message>
+	</layout>
+    <fields name="request">
+		<fieldset name="request">
+			<field name="vo_id" type="text" label="Vereinskennzeichen" description="bspw. SOMMF für https://www.vereinonline.org/sommf/"></field>
+		</fieldset>
+	</fields>
+</metadata>
