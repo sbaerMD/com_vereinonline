@@ -5,7 +5,9 @@
 	</layout>
     <fields name="request">
 		<fieldset name="request">
-			<field name="vo_id" type="text" label="Vereinskennzeichen" description="bspw. SOMMF für https://www.vereinonline.org/sommf/"></field>
+			<field name="vo_id" type="text" label="Vereinskennzeichen" description="bspw. IHRVEREIN für https://www.vereinonline.org/IHRVEREIN/" />
+			<field name="splitYear" type="checkbox" label="Trennzeile Jahr" description="pro Jahr eine Trennzeile einfügen" value="1" />
+			<field name="splitMonth" type="checkbox" label="Trennzeile Monat" description="pro Monat eine Trennzeile einfügen" value="1" />
 		</fieldset>
 	</fields>
 </metadata>
